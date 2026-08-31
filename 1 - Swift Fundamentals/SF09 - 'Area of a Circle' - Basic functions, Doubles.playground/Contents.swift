@@ -14,3 +14,8 @@
 
 import Foundation
 
+func areaOfCircle(radius: Int) -> Double {
+    return Double.pi * Double(radius * radius)
+}
+
+print(areaOfCircle(radius: 1))

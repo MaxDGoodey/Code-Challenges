@@ -19,4 +19,14 @@
 
 import Foundation
 
-let input = 3.1
+let input:Double = 3.25
+let text = String(format: "%.2f", input)
+print("$\(text)")
+
+let firstSet = Int(floor(input))
+let secondSet = Int(round((input - Double(firstSet)) * 100))
+if secondSet == 0 {
+    print("$\(firstSet).00")
+} else {
+    print("$\(firstSet).\(secondSet)")
+}

@@ -18,6 +18,8 @@
 
 import Foundation
 
-let year = 1752
+let year = 1700
 
 // Calculate century and store it to a variable
+var century = (year + 99) / 100
+print(century)
