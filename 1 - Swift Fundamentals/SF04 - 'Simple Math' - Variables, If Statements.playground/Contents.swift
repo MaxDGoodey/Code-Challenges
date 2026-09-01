@@ -7,12 +7,12 @@
 import Foundation
 
 // 1) Change the number below to a number between 1 and 10.
-var startingNumber = 5
+var startingNumber = 3
 startingNumber += 5
 startingNumber *= 2
 startingNumber -= 4
 startingNumber /= 2
-startingNumber -= 5
+startingNumber -= 3
 
 // 2) Add 5 to that number.
 
