@@ -17,3 +17,9 @@
     //  Add a boolean parameter called "even". If true, return the nth even number; if false, return the nth odd number.
 
 import Foundation
+
+func funnyFunction(_ number: Int) {
+    print(number * 2 - 2)
+}
+
+funnyFunction(1298734)
