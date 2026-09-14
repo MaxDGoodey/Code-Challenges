@@ -17,3 +17,9 @@ import Foundation
 func millisecondsSinceMidnight(hours: Int, minutes: Int, seconds: Int) -> Int {
     return (hours * 60 * 60 * 1000) + (minutes * 60 * 1000) + (seconds * 1000)
 }
+
+func hello(e whatsup: String) {
+    whatsup
+}
+
+hello(e: "wh")

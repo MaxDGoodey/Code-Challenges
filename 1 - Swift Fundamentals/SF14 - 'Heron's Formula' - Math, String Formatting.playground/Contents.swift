@@ -20,3 +20,11 @@
     //  If the sides do not form a valid triangle, return an appropriate error message.
 
 import Foundation
+
+func heronsFormula(a: Double, b: Double, c: Double) -> String {
+    let s = (a + b + c) / 2
+    let area = sqrt((s * (s - a) * (s - b) * (s - c)))
+    let stringFormat = String(format: "%.2f", area)
+    return stringFormat
+}
+print("The answer is " + heronsFormula(a: 4, b: 13, c: 15))
